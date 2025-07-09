@@ -41,6 +41,6 @@ This C++ program calculates and prints the squares of the numbers from 1 to 10 u
 ---
 
 📚 Concepts Demonstrated
-- while loops
+- While loops
 - Basic arithmetic operations
 - Console output in C++

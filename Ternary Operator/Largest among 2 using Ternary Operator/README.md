@@ -1,30 +1,25 @@
-# Discount Based on Quantity Purchased
+# Find the Largest of Two Numbers Using Conditional Operator
 
-This C++ program calculates the amount payable for a purchase based on quantity and rate, applying a discount conditionally.
+This C++ program determines the larger of two numbers entered by the user using the conditional (`?:`) operator.
 
 ---
 
 ## 🚀 How It Works
 
-- Prompts the user to enter:
-  - Quantity (`q`)
-  - Rate per unit (`r`)
-- Calculates total price: `t = q * r`
-- Applies discount based on quantity:
-  - If quantity > 1000 → 10% discount
-  - Otherwise → 5% discount
-- Final amount:  
-  `a = (q > 1000) ? t - 0.10 * t : t - 0.05 * t`
-- Displays the amount payable
+- Prompts the user to enter two integers `a` and `b`
+- Uses the conditional operator to evaluate:
+  - If `a > b`, `c = a`
+  - Otherwise, `c = b`
+- Prints the value of `c` as the largest number
 - Uses `clrscr()` to clear the screen and `getch()` to pause output (*Turbo C++ specific*)
 
 ---
 
 ## 📋 Sample Output
 
-Quantity:1200  
-Rate:10  
-amount payable:10800
+Enter value of a:5  
+Enter value of b:7  
+7
 
 ---
 
@@ -39,7 +34,6 @@ amount payable:10800
 ---
 
 ## 📚 Concepts Demonstrated
-- **Conditional operator (`?:`)**
-- **Arithmetic operations**
+- **Conditional (ternary) operator (`?:`)**
 - **Input and output using `cin` and `cout`**
 - **Basic console output in C++**

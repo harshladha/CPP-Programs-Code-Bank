@@ -14,16 +14,6 @@ This C++ program prints a right-angled triangle made of asterisks (`*`) using ne
 
 ---
 
-## 📋 Sample Output
-
-*
-**
-***
-****
-*****
-
----
-
 ## 🛠️ How to Compile and Run
 
 ### 💻 Turbo C++ (Windows)

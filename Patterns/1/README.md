@@ -1,16 +1,28 @@
 # Print Right-Angled Triangle Star Pattern
 
-This C++ program prints a right-angled triangle made of asterisks (`*`) using nested loops.
+This C++ program prints a right-angled triangle pattern made of asterisks (`*`) using nested `for` loops.
 
 ---
 
 ## 🚀 How It Works
 
-- **Outer loop (`i`)** runs from 1 to 5 to control the number of rows.
-- **Inner loop (`j`)** runs from 1 to `i` to print the required number of asterisks in each row.
-- After each row, `cout<<"\n";` moves the cursor to the next line.
-- The result is a right-angled triangle with 5 rows.
+- Uses an outer `for` loop (`i`) that runs from 1 to 5 to control the number of rows.
+- For each row:
+  - An inner `for` loop (`j`) runs from 1 to `i` to print the required number of asterisks.
+- After printing each row, `cout<<"\n";` moves to the next line.
 - Uses `clrscr()` to clear the screen and `getch()` to pause output (*Turbo C++ specific*).
+
+---
+
+## 📋 Sample Output
+
+```
+*
+**
+***
+****
+*****
+```
 
 ---
 
@@ -25,6 +37,7 @@ This C++ program prints a right-angled triangle made of asterisks (`*`) using ne
 ---
 
 ## 📚 Concepts Demonstrated
-- **Nested loops (`for` loops)**
-- **Incremental pattern printing**
-- **Basic console output using `cout`**
+- **Nested `for` loops**
+- **Incremental loop control**
+- **Pattern printing**
+- **Basic console output in C++**
